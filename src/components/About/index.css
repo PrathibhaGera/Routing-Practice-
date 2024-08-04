@@ -1,0 +1,23 @@
+/* Write your CSS code here */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+
+.nav-items-img {
+  height: 10%;
+  width: 40%;
+}
+
+.about-item {
+  color: #551e53;
+}
+.about-tagline {
+  color: #555555;
+  font-size: 23px;
+  font-weight: bold;
+}

@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 300px;
+}
+
+.nav-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.logo-img {
+  padding-top: 10px;
+  width: 40px;
+  padding-left: 10px;
+}
+.heading {
+  color: #12022f;
+  font-family: 'roboto';
+  font-size: 23px;
+  padding-top: 0px;
+  padding-left: 10px;
+}
+.nav-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  list-style: none;
+}
+
+.nav-link {
+  color: #12022f;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 25px;
+  padding-right: 15px;
+  text-decoration: none;
+}
